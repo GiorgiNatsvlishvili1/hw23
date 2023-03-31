@@ -1,0 +1,171 @@
+body {
+    overflow-x:  hidden;
+}
+@media screen and (min-width: 771px) {
+    #bigcard {
+        margin-top: 0%;
+    }
+    #footer {
+        padding: 50px
+    }
+
+    .carousel-inner {
+        display: flex;
+        margin-top: -20%;
+    }
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/4);
+    }
+    
+    #style {
+        padding-left: 30px;
+        padding-top: -250px;
+        position: relative;
+        width: 200%;
+        
+    }
+    #us {
+        padding-top: 150px;
+    }
+    #nav {
+        position: absolute;
+        margin-left: -35px;
+        margin-top: 15px;
+    }
+    #navigation {
+        z-index: 1;
+    }
+    #nav1 {
+        position: absolute;
+        font-size: 24px;
+        margin-left: 42%;
+        padding-top: 25px;
+    }
+    #vector {
+        padding-left: 20%;
+        margin-top: -80%;
+    }
+    #vector9 {
+        margin-top: -120%;
+        margin-left: 7%;
+    }
+    #eclipse1 {
+        margin-top: -80%;
+    }
+    #eclipse16 {
+        margin-top: -120%;
+        margin-left: 7%;
+    }
+    #vectori {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        margin-top: -7%;
+    }
+    #vectori1 {
+        z-index: 3;
+    }
+    #what {
+        margin-top: -40%;
+    }
+   
+    #none1 {
+        display: none;
+    }
+    #carousel {
+        margin-left: 15%;
+    }
+    #twice {
+        padding-top: 20%;
+        
+    }
+    #twice1 {
+        padding-top: 20%;
+        
+        margin-left: 20%;
+    }
+    #group {
+       margin-left: 10%;
+       margin-bottom: 30%;
+    }
+    
+    #icon1 {
+        background-size: 14px 14px;
+        background-image: url(img/Vector_7.png);
+    }
+    #icon2 {
+        background-image: url(img/Vector\ 8.png);
+        background-size: 14px 14px;
+    }
+   
+}
+@media screen and (max-width: 771px) {
+    #twice1 {
+        text-align: center;
+    }
+    .image {
+        width: 100%;
+    }
+    .footer {
+        padding: 10px;
+    }
+    #fluid1 {
+        background-color: #ECF7FF;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #none {
+        display: none;
+    }
+    .carousel-inner {
+        display: flex;
+    }
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/1);
+    }
+    #glob {
+        width: 15%;
+    }
+    #nav {
+        position: absolute;
+        margin-left: -35px;
+        margin-top: 15px;
+    }
+    #fluid {
+        padding-right: 0px;
+    }
+    #vector {
+        margin-top: -85%;
+        padding-left: 10%;
+    }
+    #mask {
+        padding-top: 50px;
+    }
+    #eclipse1 {
+        margin-top: -90%;
+    }
+    
+    #svg {
+        margin-top: -10%;
+        margin-left: 16%;
+    }
+    #eclipse16 {
+        margin-top: -125%;
+        margin-left: 7%;
+    }
+    #vector9 {
+        margin-top: -120%;
+        margin-left: 7%;
+    }
+    #glob {
+        width: 15%;
+        border-radius: 10px;
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+}
+
